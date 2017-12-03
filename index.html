@@ -2,7 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="jqGifPreview/jqGifPreview.css" />
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+	
+<link rel="stylesheet" href="jqGifPreview.css" />
+<script src="jqGifPreview.js"></script>
+	
 <title>jQuery jqGifPreview (http://develoteca.com)</title>
 </head>
 <body>
@@ -30,8 +37,7 @@
 	    <img class="myImg" src="Thanatos.png" data-gif="Thanatos.gif" />
 	</div>
 </body>
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="jqGifPreview/jqGifPreview.js"></script>
+
 <script>
 	$(function() {
 		$(".myImg").jqGifPreview();
